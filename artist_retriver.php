@@ -1,8 +1,8 @@
 <?php
-	$user = 'user';
-	$password = 'redhat';
-	$host = 'localhost';
-	$db = 'albums';
+   	$user = 'admin';
+   	$password = 'redhat';
+   	$host = 'mariadb';
+   	$db = 'albums';
 	$dbh = mysqli_connect($host,$user,$password,$db);
 	echo "Connected to $host <br><br>";
 	$query = "SELECT * FROM artists"; 

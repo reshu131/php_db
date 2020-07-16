@@ -2,9 +2,9 @@
 <p> Enter artist name that you want to insert </p>
 <?php
   
-   $user = 'user';
+   $user = 'admin';
    $password = 'redhat';
-   $host = 'localhost';
+   $host = 'mariadb';
    $db = 'albums';
    $dbh = mysqli_connect($host,$user,$password,$db);
    if (isset($_GET['submit'])) {
